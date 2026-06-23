@@ -1,0 +1,20 @@
+{
+ "add_total_row": 1,
+ "doctype": "Report",
+ "filters": [
+  {"fieldname": "company", "label": "Podjetje", "fieldtype": "Link", "options": "Company", "reqd": 1, "default": "Moje Podjetje d.o.o."},
+  {"fieldname": "year", "label": "Leto", "fieldtype": "Select", "options": "2024\n2025\n2026\n2027", "reqd": 1, "default": "2026"}
+ ],
+ "module": "Erpnext Slovenia",
+ "name": "DDV-VP Letno Poro\u010dilo",
+ "ref_doctype": "Sales Invoice",
+ "report_name": "DDV-VP Letno Poro\u010dilo",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "roles": [
+  {"role": "Accounts Manager"},
+  {"role": "Accounts User"},
+  {"role": "Auditor"}
+ ],
+ "columns": []
+}
